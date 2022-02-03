@@ -1,3 +1,7 @@
+footer {
+  margin-bottom: 1%;
+}
+
 .contacto {
   display: flex;
   justify-content: center;
