@@ -1,0 +1,8 @@
+.contacto {
+  display: flex;
+  justify-content: center;
+}
+
+.contacto li {
+  margin: 5px 8px;
+}

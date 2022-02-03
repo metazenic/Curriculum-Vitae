@@ -1,0 +1,19 @@
+.datosPersonales {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: lightblue;
+  padding: 15px 30px;
+  grid-column: 1/5;
+}
+
+.datosPersonales li {
+  color: initial;
+  font-size: 1.8em;
+  line-height: 1.5em;
+}
+
+.datosPersonales img {
+  height: 150px;
+  border-radius: 15px;
+}

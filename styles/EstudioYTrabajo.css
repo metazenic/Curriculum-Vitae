@@ -1,0 +1,37 @@
+.educacion {
+  background-color: darkslateblue;
+  grid-column: 1/4;
+}
+
+.experienciaLaboral {
+  background-color: navy;
+  grid-column: 1/4;
+}
+
+.estudio,
+.trabajo {
+  margin: 30px;
+}
+
+h3 {
+  font-size: 2em;
+  margin: 10px 15px;
+}
+
+.titulo {
+  font-size: 1.5em;
+}
+
+.lugar {
+  margin-top: 3px;
+  font-size: 1.2em;
+}
+
+.periodo {
+  margin-bottom: 3px;
+  font-size: 0.8em;
+}
+
+.descripcion {
+  font-size: 1.1em;
+}
