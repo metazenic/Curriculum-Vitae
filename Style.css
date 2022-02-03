@@ -1,27 +1,82 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    background-color: black;
-    color: white;
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 a {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
 li {
-    list-style: none;
+  list-style: none;
 }
 
-.cajaMain {
-    margin: 5% 25%;
+header {
+    margin-top: 5%;
 }
 
-h1, h2 {
-    text-align: center;
+h1,
+h2 {
+  text-align: center;
+}
+
+h2 {
+  font-size: 12px;
+}
+
+.cajaGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.datosPersonales {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: lightblue;
+  padding: 10px 25px;
+  grid-column: 1/5;
+}
+
+.datosPersonales li {
+  color: initial;
+  font-size: 30px;
+}
+
+.datosPersonales img {
+  height: 150px;
+}
+
+.AptitudesInformaticas {
+  background-color: cadetblue;
+  grid-column: 1/4;
+}
+
+.experienciaLaboral {
+  background-color: navy;
+  grid-column: 1/4;
+}
+
+.otrasAptitudes {
+  background-color: mediumseagreen;
+  grid-column: 4;
+  grid-row: 2/4;
+}
+
+.contacto {
+    display: flex;
+    justify-content: center;
+}
+
+.contacto li {
+    margin: 5px 8px;
 }
