@@ -20,7 +20,7 @@ li {
 }
 
 header {
-    margin-top: 5%;
+  margin-top: 5%;
 }
 
 h1,
@@ -28,15 +28,19 @@ h2 {
   text-align: center;
 }
 
+h1 {
+    font-size: 3em;
+}
+
 h2 {
-  font-size: 12px;
+  font-size: 1em;
 }
 
 .cajaGrid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
-    margin: 1% 20%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  margin: 1% 20%;
 }
 
 .datosPersonales {
@@ -44,7 +48,7 @@ h2 {
   justify-content: space-between;
   align-items: center;
   background-color: lightblue;
-  padding: 10px 25px;
+  padding: 15px 30px;
   grid-column: 1/5;
 }
 
@@ -58,8 +62,27 @@ h2 {
 }
 
 .AptitudesInformaticas {
+  display: flex;
   background-color: cadetblue;
   grid-column: 1/4;
+  text-align: center;
+}
+
+.AptitudesInformaticas div {
+    flex-basis: 50%;
+    margin: 25px;
+}
+
+.AptitudesInformaticas h4 {
+    margin-bottom: 10px;
+}
+
+.frontend {
+    font-size: 2em;
+}
+
+.AptitudesInformaticas li {
+    line-height: 2em;
 }
 
 .experienciaLaboral {
@@ -74,10 +97,10 @@ h2 {
 }
 
 .contacto {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .contacto li {
-    margin: 5px 8px;
+  margin: 5px 8px;
 }
