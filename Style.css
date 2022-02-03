@@ -29,7 +29,7 @@ h2 {
 }
 
 h1 {
-    font-size: 3em;
+  font-size: 3em;
 }
 
 h2 {
@@ -69,20 +69,25 @@ h2 {
 }
 
 .AptitudesInformaticas div {
-    flex-basis: 50%;
-    margin: 25px;
+  flex-basis: 50%;
+  margin: 25px;
 }
 
 .AptitudesInformaticas h4 {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .frontend {
-    font-size: 2em;
+  font-size: 2em;
 }
 
 .AptitudesInformaticas li {
-    line-height: 2em;
+  line-height: 2em;
+}
+
+.educacion {
+  background-color: darkslateblue;
+  grid-column: 1/4;
 }
 
 .experienciaLaboral {
@@ -93,7 +98,7 @@ h2 {
 .otrasAptitudes {
   background-color: mediumseagreen;
   grid-column: 4;
-  grid-row: 2/4;
+  grid-row: 2/5;
 }
 
 .contacto {
