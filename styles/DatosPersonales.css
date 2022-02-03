@@ -17,3 +17,7 @@
   height: 170px;
   border-radius: 15px;
 }
+
+.datosPersonales i:hover {
+  color: white;
+}
