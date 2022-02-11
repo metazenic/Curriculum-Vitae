@@ -1,6 +1,6 @@
 .programacion {
   display: flex;
-  background-color: slateblue;
+  background-color: cadetblue;
   grid-column: 1/5;
   text-align: center;
   justify-content: space-evenly;
