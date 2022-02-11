@@ -1,11 +1,14 @@
+.educacion,
+.experienciaLaboral {
+  grid-column: 1/6;
+}
+
 .educacion {
   background-color: darkslateblue;
-  grid-column: 1/4;
 }
 
 .experienciaLaboral {
   background-color: navy;
-  grid-column: 1/4;
 }
 
 .estudio,
@@ -37,6 +40,11 @@ h3 {
 }
 
 @media screen and (min-width: 460px) {
+  .educacion,
+  .experienciaLaboral {
+    grid-column: 1/7;
+  }
+
   .estudio,
   .trabajo {
     margin: 30px;
