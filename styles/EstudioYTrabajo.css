@@ -10,12 +10,12 @@
 
 .estudio,
 .trabajo {
-  margin: 30px;
+  margin: 15px;
 }
 
 h3 {
   font-size: 2em;
-  margin: 10px 15px;
+  margin: 10px;
 }
 
 .titulo {
@@ -34,4 +34,15 @@ h3 {
 
 .descripcion {
   font-size: 1.1em;
+}
+
+@media screen and (min-width: 768px) {
+  .estudio,
+  .trabajo {
+    margin: 30px;
+  }
+
+  h3 {
+    margin: 10px 15px;
+  }
 }
