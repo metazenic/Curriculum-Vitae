@@ -40,6 +40,17 @@ h3 {
 }
 
 @media screen and (min-width: 460px) {
+  .estudio,
+  .trabajo {
+    margin: 20px;
+  }
+
+  h3 {
+    margin: 8px 10px;
+  }
+}
+
+@media screen and (min-width: 769px) {
   .educacion,
   .experienciaLaboral {
     grid-column: 1/7;

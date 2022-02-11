@@ -9,12 +9,12 @@
 
 .datosPersonales li {
   color: initial;
-  font-size: 1.7em;
+  font-size: 1.5em;
   line-height: 1.5em;
 }
 
 .datosPersonales img {
-  height: 10em;
+  height: 9em;
   border-radius: 15px;
 }
 
@@ -24,6 +24,12 @@
 
 @media screen and (min-width: 460px) {
   .datosPersonales {
-    padding: 15px 30px;
+    padding: 15px;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .datosPersonales {
+    padding: 25px 40px;
   }
 }

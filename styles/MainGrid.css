@@ -16,13 +16,18 @@
 @media screen and (min-width: 460px) {
   .mainGrid {
     gap: 15px;
-    margin: 1% 5%;
   }
 }
 
 @media screen and (min-width: 769px) {
   .mainGrid {
     gap: 25px;
+    margin: 1% 10%;
+  }
+}
+
+@media screen and (min-width: 1120px) {
+  .mainGrid {
     margin: 1% 20%;
   }
 }
