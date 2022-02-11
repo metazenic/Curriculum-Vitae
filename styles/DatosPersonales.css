@@ -14,7 +14,8 @@
 }
 
 .datosPersonales img {
-  height: 170px;
+  height: 100px;
+  /* height: 170px; tamaño pc*/
   border-radius: 15px;
 }
 
