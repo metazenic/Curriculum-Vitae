@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: lightblue;
+  background-color: lightsteelblue;
   padding: 10px 15px;
   grid-column: 1/5;
 }
