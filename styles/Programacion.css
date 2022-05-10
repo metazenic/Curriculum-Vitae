@@ -1,5 +1,6 @@
 .programacion {
   display: flex;
+  flex-wrap: wrap;
   background-color: cadetblue;
   grid-column: 1/9;
   text-align: center;

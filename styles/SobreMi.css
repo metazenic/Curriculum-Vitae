@@ -1,0 +1,15 @@
+.sobreMi {
+  grid-column: 1/9;
+  background-color: mediumslateblue;
+}
+
+.sobreMi p {
+  margin: 10px 15px;
+  font-size: 1.1em;
+}
+
+@media screen and (min-width: 460px) {
+  .sobreMi p {
+    margin: 20px 30px;
+  }
+}

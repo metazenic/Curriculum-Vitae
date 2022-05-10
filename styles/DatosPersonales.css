@@ -14,6 +14,7 @@
 }
 
 .datosPersonales img {
+  display: none;
   height: 9em;
   border-radius: 15px;
 }
@@ -25,6 +26,10 @@
 @media screen and (min-width: 460px) {
   .datosPersonales {
     padding: 15px;
+  }
+
+  .datosPersonales img {
+    display: initial;
   }
 }
 

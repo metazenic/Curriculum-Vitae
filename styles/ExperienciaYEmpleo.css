@@ -1,5 +1,4 @@
-.educacion,
-.experienciaLaboral {
+.caja {
   grid-column: 1/6;
 }
 
@@ -7,12 +6,16 @@
   background-color: darkslateblue;
 }
 
+.practicaProfesional {
+  background-color: darkmagenta
+  ;
+}
+
 .experienciaLaboral {
   background-color: navy;
 }
 
-.estudio,
-.trabajo {
+.tarjeta {
   margin: 15px;
 }
 
@@ -25,23 +28,22 @@ h3 {
   font-size: 1.5em;
 }
 
-.lugar {
+.tarjeta p:nth-child(2){
   margin-top: 3px;
   font-size: 1.2em;
 }
 
-.periodo {
+.tarjeta p:nth-child(3) {
   margin-bottom: 3px;
   font-size: 0.8em;
 }
 
-.descripcion {
+.tarjeta p:nth-child(4) {
   font-size: 1.1em;
 }
 
 @media screen and (min-width: 460px) {
-  .estudio,
-  .trabajo {
+  .tarjeta {
     margin: 20px;
   }
 
@@ -51,13 +53,11 @@ h3 {
 }
 
 @media screen and (min-width: 769px) {
-  .educacion,
-  .experienciaLaboral {
+  .caja {
     grid-column: 1/7;
   }
 
-  .estudio,
-  .trabajo {
+  .tarjeta {
     margin: 30px;
   }
 
