@@ -11,9 +11,18 @@ body {
   font-size: 65%;
 }
 
+section {
+  background-color: lightgrey;
+  color: darkblue;
+}
+
 a {
   text-decoration: none;
   color: inherit;
+}
+
+a:hover {
+  color: cyan;
 }
 
 li {

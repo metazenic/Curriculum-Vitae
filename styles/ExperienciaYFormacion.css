@@ -2,19 +2,6 @@
   grid-column: 1/6;
 }
 
-.educacion {
-  background-color: darkslateblue;
-}
-
-.practicaProfesional {
-  background-color: darkmagenta
-  ;
-}
-
-.experienciaLaboral {
-  background-color: navy;
-}
-
 .tarjeta {
   margin: 15px;
 }
